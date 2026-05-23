@@ -1,0 +1,7 @@
+{
+    "validation_roc_auc": 0.8773350610085304,
+    "validation_pr_auc": 0.8628047067389568,
+    "test_roc_auc": 0.8730158730158729,
+    "test_pr_auc": 0.8489438031299358,
+    "selected_decision_threshold": 0.2
+}
