@@ -1,6 +1,6 @@
 # Churn Scoring API — Monitoring Plan & Responsible Use
 
-This plan applies to the Part 4 FastAPI service that loads **`model/model.pkl`** (XGBoost pipeline from Part 3) and classifies customers at decision threshold **0.20** (`model/metrics.json`). Baseline model quality on held-out data: validation ROC-AUC **~0.88**, PR-AUC **~0.86** (see Part 3 `metrics.json`).
+This plan applies to the Part 4 FastAPI service that loads **`model/model.pkl`** (XGBoost pipeline from Part 3) and classifies customers at decision threshold **0.20** (`model/metrics.json`). Baseline model quality on held-out data: validation ROC-AUC **~0.88**, PR-AUC **~0.86**.
 
 ---
 
@@ -99,6 +99,6 @@ graph LR
 
 ## 5. References
 
-- Feature definitions: capstone root `DATA_DICTIONARY.md`
+- Feature definitions: `DATA_DICTIONARY.md`
 - Model performance and threshold rationale: Part 3 `model_card.md`, `metrics.json`
 - Error patterns and manual review: Part 3 `error_analysis.md`
